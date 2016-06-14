@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "YouBike"; ObjectID = "2Pg-EL-fiG"; */
+"2Pg-EL-fiG.text" = "YouBike";
+
+/* Class = "UIButton"; normalTitle = "logout"; ObjectID = "2Z2-6A-KHU"; */
+"2Z2-6A-KHU.normalTitle" = "logout";
+
+/* Class = "UISegmentedControl"; 4j9-Ag-QfL.segmentTitles[0] = "Standard"; ObjectID = "4j9-Ag-QfL"; */
+"4j9-Ag-QfL.segmentTitles[0]" = "Standard";
+
+/* Class = "UISegmentedControl"; 4j9-Ag-QfL.segmentTitles[1] = "Satellite"; ObjectID = "4j9-Ag-QfL"; */
+"4j9-Ag-QfL.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; 4j9-Ag-QfL.segmentTitles[2] = "Hybrid"; ObjectID = "4j9-Ag-QfL"; */
+"4j9-Ag-QfL.segmentTitles[2]" = "Hybrid";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9HR-vC-p0f"; */
+"9HR-vC-p0f.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9NT-Aa-fdY"; */
+"9NT-Aa-fdY.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "CAd-Tg-Qs0"; */
+"CAd-Tg-Qs0.title" = "Profile";
+
+/* Class = "UITabBarItem"; title = "Stations"; ObjectID = "QI2-Tu-wAb"; */
+"QI2-Tu-wAb.title" = "Stations";
+
+/* Class = "UILabel"; text = "nil"; ObjectID = "W1k-5N-RbN"; */
+"W1k-5N-RbN.text" = "nil";
+
+/* Class = "UINavigationItem"; title = "Youbike"; ObjectID = "kdn-ki-0aM"; */
+"kdn-ki-0aM.title" = "Youbike";
+
+/* Class = "UINavigationItem"; title = "YouBike"; ObjectID = "tAh-TM-J4u"; */
+"tAh-TM-J4u.title" = "Youbike";

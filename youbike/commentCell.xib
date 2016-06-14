@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="tNj-IV-mo1" customClass="CommentViewCell" customModule="youbike" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="585" height="247"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tNj-IV-mo1" id="IiZ-LO-dXp">
+                <rect key="frame" x="0.0" y="0.0" width="585" height="246.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9D9-UT-pFc">
+                        <rect key="frame" x="21" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Lns-gx-ajt"/>
+                            <constraint firstAttribute="width" constant="40" id="tzC-Cp-6ny"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mattis Nibh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQ2-DF-WVC">
+                        <rect key="frame" x="71" y="10" width="494" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="xn3-In-8uU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90G-G1-99q">
+                        <rect key="frame" x="71" y="38" width="494" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="Di6-MY-pLc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjX-6q-EC0" userLabel="separator line">
+                        <rect key="frame" x="0.0" y="245" width="585" height="2"/>
+                        <color key="backgroundColor" red="0.65098039220000004" green="0.56862745100000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2" id="AGW-8e-R4D"/>
+                            <constraint firstAttribute="height" constant="2" id="ZdO-jX-1J0"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rf-zg-YR1">
+                        <rect key="frame" x="21" y="58" width="544" height="179"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PQ2-DF-WVC" firstAttribute="top" secondItem="9D9-UT-pFc" secondAttribute="top" id="9in-58-CSo"/>
+                    <constraint firstItem="fjX-6q-EC0" firstAttribute="top" secondItem="3rf-zg-YR1" secondAttribute="bottom" constant="8" id="ENs-tm-JAA"/>
+                    <constraint firstAttribute="trailing" secondItem="fjX-6q-EC0" secondAttribute="trailing" id="Epx-Px-DN4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="3rf-zg-YR1" secondAttribute="trailing" constant="12" id="JKI-o3-HKL"/>
+                    <constraint firstItem="3rf-zg-YR1" firstAttribute="leading" secondItem="IiZ-LO-dXp" secondAttribute="leadingMargin" constant="13" id="LAu-Gp-bPF"/>
+                    <constraint firstItem="90G-G1-99q" firstAttribute="leading" secondItem="9D9-UT-pFc" secondAttribute="trailing" constant="10" id="OuK-4d-Vwk"/>
+                    <constraint firstItem="fjX-6q-EC0" firstAttribute="leading" secondItem="IiZ-LO-dXp" secondAttribute="leading" id="SyR-v3-VXU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="90G-G1-99q" secondAttribute="trailing" constant="12" id="TNV-rX-dtD"/>
+                    <constraint firstItem="90G-G1-99q" firstAttribute="bottom" secondItem="9D9-UT-pFc" secondAttribute="bottom" id="WoO-u2-0Xo"/>
+                    <constraint firstItem="9D9-UT-pFc" firstAttribute="leading" secondItem="IiZ-LO-dXp" secondAttribute="leading" constant="21" id="lVy-4p-YkY"/>
+                    <constraint firstAttribute="bottom" secondItem="fjX-6q-EC0" secondAttribute="bottom" id="pmY-6D-mBi"/>
+                    <constraint firstItem="PQ2-DF-WVC" firstAttribute="leading" secondItem="9D9-UT-pFc" secondAttribute="trailing" constant="10" id="snd-Q1-8o4"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PQ2-DF-WVC" secondAttribute="trailing" constant="12" id="vHe-jI-NDZ"/>
+                    <constraint firstItem="9D9-UT-pFc" firstAttribute="top" secondItem="IiZ-LO-dXp" secondAttribute="top" constant="10" id="vIM-6j-fnT"/>
+                    <constraint firstItem="3rf-zg-YR1" firstAttribute="top" secondItem="9D9-UT-pFc" secondAttribute="bottom" constant="8" id="zQ9-GQ-EeI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentText" destination="3rf-zg-YR1" id="vhj-Op-yU7"/>
+                <outlet property="nameLabel" destination="PQ2-DF-WVC" id="Jsv-6j-2DG"/>
+                <outlet property="profileImage" destination="9D9-UT-pFc" id="UM2-wz-8Ak"/>
+                <outlet property="timeLabel" destination="90G-G1-99q" id="Q8B-Nf-4l3"/>
+            </connections>
+            <point key="canvasLocation" x="447.5" y="576.5"/>
+        </tableViewCell>
+    </objects>
+</document>

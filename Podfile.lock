@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - CryptoSwift (0.2.2)
+  - FBSDKCoreKit (4.11.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.11.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.11.0):
+    - FBSDKCoreKit
+  - FZURefresh (1.1)
+  - JSONWebToken (1.4.3):
+    - CryptoSwift (= 0.2.2)
+  - PureLayout (3.0.1)
+  - UILoadControl (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - FZURefresh
+  - JSONWebToken
+  - PureLayout
+  - UILoadControl
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  CryptoSwift: d382228d6301c09474132417878a741c2a2e68cd
+  FBSDKCoreKit: 686ac982723a14ec9ddb85e2f81235d7706c891b
+  FBSDKLoginKit: bade9fc78277764149ccc5bfaadbf13c83175c6a
+  FBSDKShareKit: 2d1746144cfc8a9dbbd24997c34ee0471be51b6a
+  FZURefresh: 100116fa7cfaf5eb496982d69a5ecf48c1fc0be4
+  JSONWebToken: acdab3aeedf8d44f5cf09ad469deb42c4faf3740
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  UILoadControl: 6a21eac2da398f3f5958aba9c1c04a65480f37d5
+
+COCOAPODS: 0.39.0
