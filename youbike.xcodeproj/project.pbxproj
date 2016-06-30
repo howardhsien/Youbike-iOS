@@ -15,14 +15,14 @@
 		643E77981CE1C6FB001DDE0C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643E77971CE1C6FB001DDE0C /* LoginViewController.swift */; };
 		645EB1CA1CE5A8F400DFA8F4 /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 645EB1CC1CE5A8F400DFA8F4 /* cell.xib */; };
 		645EB1D81CE7896B00DFA8F4 /* Station.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 645EB1D61CE7896B00DFA8F4 /* Station.xcdatamodeld */; };
-		645EB1DB1CE78CB500DFA8F4 /* Station+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB1D91CE78CB500DFA8F4 /* Station+CoreDataProperties.swift */; };
 		645EB1DC1CE78CB500DFA8F4 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB1DA1CE78CB500DFA8F4 /* Station.swift */; };
 		645EB1DE1CE78DDB00DFA8F4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB1DD1CE78DDB00DFA8F4 /* DataController.swift */; };
 		645EB1E01CE9782E00DFA8F4 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB1DF1CE9782E00DFA8F4 /* CollectionViewController.swift */; };
 		645EB1E21CE978D100DFA8F4 /* YoubikeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB1E11CE978D100DFA8F4 /* YoubikeCollectionViewCell.swift */; };
 		645EB2161CEB490800DFA8F4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB2151CEB490800DFA8F4 /* TableViewController.swift */; };
 		645EB2181CEEABE600DFA8F4 /* TableMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645EB2171CEEABE600DFA8F4 /* TableMapController.swift */; };
-		6475EDA41CEECE7000AC9CCA /* commentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6475EDA31CEECE7000AC9CCA /* commentCell.xib */; };
+		647247C91D24161C00FB777E /* Station+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647247C81D24161C00FB777E /* Station+CoreDataProperties.swift */; };
+		6475EDA41CEECE7000AC9CCA /* CommentViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = 6475EDA31CEECE7000AC9CCA /* CommentViewCell.swift */; };
 		6475EDA61CEEDA2300AC9CCA /* CommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475EDA51CEEDA2300AC9CCA /* CommentViewCell.swift */; };
 		6475EDA91CEEE84D00AC9CCA /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6475EDA81CEEE84D00AC9CCA /* CommentModel.swift */; };
 		64EBF3301CCDBAE600068B8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EBF32F1CCDBAE600068B8B /* AppDelegate.swift */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		640749AB1CF0D30A006B29A3 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		640749AE1CF0DC84006B29A3 /* MapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
+		640749AE1CF0DC84006B29A3 /* MapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapCell.swift; path = view/MapCell.swift; sourceTree = "<group>"; };
 		640749B21CF21680006B29A3 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		642D126F1CE08703007791DE /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		642D12711CE0EB26007791DE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -53,16 +53,16 @@
 		645EB1D11CE5A9D600DFA8F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/cell.strings; sourceTree = "<group>"; };
 		645EB1D21CE5A9E000DFA8F4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/cell.strings"; sourceTree = "<group>"; };
 		645EB1D71CE7896B00DFA8F4 /* Station.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Station.xcdatamodel; sourceTree = "<group>"; };
-		645EB1D91CE78CB500DFA8F4 /* Station+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Station+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		645EB1DA1CE78CB500DFA8F4 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		645EB1DA1CE78CB500DFA8F4 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Station.swift; path = model/Station.swift; sourceTree = "<group>"; };
 		645EB1DD1CE78DDB00DFA8F4 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		645EB1DF1CE9782E00DFA8F4 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		645EB1E11CE978D100DFA8F4 /* YoubikeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoubikeCollectionViewCell.swift; sourceTree = "<group>"; };
+		645EB1E11CE978D100DFA8F4 /* YoubikeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoubikeCollectionViewCell.swift; path = view/YoubikeCollectionViewCell.swift; sourceTree = "<group>"; };
 		645EB2151CEB490800DFA8F4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		645EB2171CEEABE600DFA8F4 /* TableMapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableMapController.swift; sourceTree = "<group>"; };
-		6475EDA31CEECE7000AC9CCA /* commentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = commentCell.xib; sourceTree = "<group>"; };
-		6475EDA51CEEDA2300AC9CCA /* CommentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewCell.swift; sourceTree = "<group>"; };
-		6475EDA81CEEE84D00AC9CCA /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		647247C81D24161C00FB777E /* Station+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Station+CoreDataProperties.swift"; path = "model/Station+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6475EDA31CEECE7000AC9CCA /* CommentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentViewCell.swift; path = view/CommentViewCell.swift; sourceTree = "<group>"; };
+		6475EDA51CEEDA2300AC9CCA /* CommentViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentViewCell.swift; path = view/CommentViewCell.swift; sourceTree = "<group>"; };
+		6475EDA81CEEE84D00AC9CCA /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommentModel.swift; path = model/CommentModel.swift; sourceTree = "<group>"; };
 		64EBF32C1CCDBAE500068B8B /* youbike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youbike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64EBF32F1CCDBAE600068B8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64EBF3311CCDBAE600068B8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +70,11 @@
 		64EBF3361CCDBAE600068B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64EBF3391CCDBAE600068B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64EBF33B1CCDBAE600068B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64EBF3411CCDE71A00068B8B /* YoubikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoubikeTableViewCell.swift; sourceTree = "<group>"; };
+		64EBF3411CCDE71A00068B8B /* YoubikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoubikeTableViewCell.swift; path = view/YoubikeTableViewCell.swift; sourceTree = "<group>"; };
 		64EBF34A1CCE070900068B8B /* youbike.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = youbike.json; sourceTree = "<group>"; };
 		64EBF34E1CCF6B0B00068B8B /* UIColor+YBKAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+YBKAdditions.swift"; sourceTree = "<group>"; };
 		64EBF3501CD09DAF00068B8B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		64EBF3521CD0E81100068B8B /* StationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
+		64EBF3521CD0E81100068B8B /* StationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StationModel.swift; path = model/StationModel.swift; sourceTree = "<group>"; };
 		64EBF37C1CD8D18500068B8B /* YoubikeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoubikeManager.swift; sourceTree = "<group>"; };
 		68074061C316CE5F0212CAE9 /* Pods-youbike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youbike.release.xcconfig"; path = "Pods/Target Support Files/Pods-youbike/Pods-youbike.release.xcconfig"; sourceTree = "<group>"; };
 		CDC1D0E32A31A42936663D0D /* Pods_youbike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youbike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +113,7 @@
 		640749AD1CF0D968006B29A3 /* helper */ = {
 			isa = PBXGroup;
 			children = (
+				64EBF37C1CD8D18500068B8B /* YoubikeManager.swift */,
 				640749AB1CF0D30A006B29A3 /* ImageDownloader.swift */,
 			);
 			name = helper;
@@ -122,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				645EB1CC1CE5A8F400DFA8F4 /* cell.xib */,
-				6475EDA31CEECE7000AC9CCA /* commentCell.xib */,
+				6475EDA31CEECE7000AC9CCA /* CommentViewCell.swift */,
 				64EBF3411CCDE71A00068B8B /* YoubikeTableViewCell.swift */,
 				645EB1E11CE978D100DFA8F4 /* YoubikeCollectionViewCell.swift */,
 				6475EDA51CEEDA2300AC9CCA /* CommentViewCell.swift */,
@@ -180,10 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				645EB1D61CE7896B00DFA8F4 /* Station.xcdatamodeld */,
-				645EB1D91CE78CB500DFA8F4 /* Station+CoreDataProperties.swift */,
+				647247C81D24161C00FB777E /* Station+CoreDataProperties.swift */,
 				645EB1DA1CE78CB500DFA8F4 /* Station.swift */,
 				64EBF3521CD0E81100068B8B /* StationModel.swift */,
-				64EBF37C1CD8D18500068B8B /* YoubikeManager.swift */,
 				6475EDA81CEEE84D00AC9CCA /* CommentModel.swift */,
 			);
 			name = model;
@@ -270,7 +270,7 @@
 				645EB1CA1CE5A8F400DFA8F4 /* cell.xib in Resources */,
 				64EBF34B1CCE070900068B8B /* youbike.json in Resources */,
 				64EBF33A1CCDBAE600068B8B /* LaunchScreen.storyboard in Resources */,
-				6475EDA41CEECE7000AC9CCA /* commentCell.xib in Resources */,
+				6475EDA41CEECE7000AC9CCA /* CommentViewCell.swift in Resources */,
 				64EBF3371CCDBAE600068B8B /* Assets.xcassets in Resources */,
 				640749B31CF21680006B29A3 /* Main_iPad.storyboard in Resources */,
 				64EBF3351CCDBAE600068B8B /* Main.storyboard in Resources */,
@@ -345,10 +345,10 @@
 				64EBF3511CD09DAF00068B8B /* MapViewController.swift in Sources */,
 				645EB1DE1CE78DDB00DFA8F4 /* DataController.swift in Sources */,
 				64EBF3531CD0E81100068B8B /* StationModel.swift in Sources */,
+				647247C91D24161C00FB777E /* Station+CoreDataProperties.swift in Sources */,
 				645EB1E21CE978D100DFA8F4 /* YoubikeCollectionViewCell.swift in Sources */,
 				645EB1E01CE9782E00DFA8F4 /* CollectionViewController.swift in Sources */,
 				642D12721CE0EB26007791DE /* ProfileViewController.swift in Sources */,
-				645EB1DB1CE78CB500DFA8F4 /* Station+CoreDataProperties.swift in Sources */,
 				640749AC1CF0D30A006B29A3 /* ImageDownloader.swift in Sources */,
 				64EBF37D1CD8D18500068B8B /* YoubikeManager.swift in Sources */,
 				6475EDA91CEEE84D00AC9CCA /* CommentModel.swift in Sources */,
@@ -368,6 +368,7 @@
 				645EB1D21CE5A9E000DFA8F4 /* zh-Hant */,
 			);
 			name = cell.xib;
+			path = view;
 			sourceTree = "<group>";
 		};
 		64EBF3331CCDBAE600068B8B /* Main.storyboard */ = {
