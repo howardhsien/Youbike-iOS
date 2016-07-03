@@ -38,14 +38,14 @@ class CollectionViewController: UICollectionViewController {
     
 //MARK: loadMore
     @objc private func loadMore(sender: AnyObject?) {
-        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(loadDelaySeg * Double(NSEC_PER_SEC)))
-        dispatch_after(delayTime, dispatch_get_main_queue()) {
-            self.stationModel.getNextStationPageData({
-                self.collectionView?.loadControl!.endLoading()
-                self.collectionView?.reloadData()
-            })
-
-        }
+//        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(loadDelaySeg * Double(NSEC_PER_SEC)))
+//        dispatch_after(delayTime, dispatch_get_main_queue()) {
+//            self.stationModel.getNextStationPageData({
+//                self.collectionView?.loadControl!.endLoading()
+//                self.collectionView?.reloadData()
+//            })
+//
+//        }
     }
     
     

@@ -11,7 +11,7 @@ import UILoadControl
 //import FZURefresh
 
 class TableViewController: UITableViewController, CellDelegation {
-    
+    var youbikeManager = YoubikeManager.sharedInstance()
     var stationModel = YoubikeManager.sharedInstance().stationModel
     
     
@@ -22,11 +22,14 @@ class TableViewController: UITableViewController, CellDelegation {
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let nib = UINib(nibName: "cell", bundle: nil)
         self.tableView.registerNib(nib, forCellReuseIdentifier: "YoubikeTableViewCell")
-        stationModel.getYoubikeDataWithCompletionHandlerAndJWT(stationModel.youbikeURL,completion: {[unowned self] in
+        youbikeManager.getYoubikeDataWithCompletionHandler{
+            [unowned self] in 
             self.tableView.reloadData()
-            })
+        }
+        
         tableView.dataSource = self
         tableView.delegate = self
         tableView.loadControl = UILoadControl(target: self, action: #selector(loadMore(_:)))
@@ -54,14 +57,23 @@ class TableViewController: UITableViewController, CellDelegation {
     //MARK: load more
     @objc private func loadMore(sender: AnyObject?){
         print("new load more")
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (Int64)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), {
-            self.stationModel.getNextStationPageData({
-                [weak self] in
-                self?.tableView.loadControl?.endLoading()
-                self?.tableView.reloadData()
-            })
-            
-        })
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (Int64)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), {
+//            self.stationModel.getNextStationPageData({
+//                [weak self] in
+//                self?.tableView.loadControl?.endLoading()
+//                self?.tableView.reloadData()
+//            })
+//            
+//        })
+    }
+    
+    func refreshPage(){
+        print(#function)
+        stationModel.clearStations()
+        youbikeManager.getYoubikeDataWithCompletionHandler {
+            [unowned self] in
+            self.tableView.reloadData()
+        }
     }
 
 

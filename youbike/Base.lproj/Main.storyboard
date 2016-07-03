@@ -38,7 +38,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" title="TableViewCellController" id="BYZ-38-t0r" userLabel="View Controller" customClass="ViewController" customModule="youbike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" userLabel="View Controller" customClass="ViewController" customModule="youbike" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WbE-p6-xA2"/>
                         <viewControllerLayoutGuide type="bottom" id="pEc-lZ-bT5"/>
@@ -49,6 +49,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Youbike" id="tAh-TM-J4u">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="3kd-Mm-kIe">
+                            <color key="tintColor" red="0.9843137264251709" green="0.77254903316497803" blue="0.43529412150382996" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="ulF-39-aAi">
                             <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="jkL-Jy-Yi5">
                                 <rect key="frame" x="279" y="7" width="80" height="30"/>
@@ -62,6 +65,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="refreshButton" destination="3kd-Mm-kIe" id="czB-rB-neN"/>
                         <outlet property="viewModeSegmentControl" destination="jkL-Jy-Yi5" id="Qw4-hr-dST"/>
                     </connections>
                 </viewController>

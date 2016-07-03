@@ -28,8 +28,7 @@ class ImageDownloader {
                 guard let data = data where error == nil else {
                     print(error)
                     return }
-                //                print(response?.suggestedFilename ?? "")
-//                self.profileImage.image = UIImage(data: data)
+
                 completion(data: data)
             }
         }

@@ -12,8 +12,7 @@ import PureLayout
 
 class ViewController: UIViewController{
     
-
-    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var refreshButton : UIBarButtonItem!
     @IBOutlet weak var viewModeSegmentControl: UISegmentedControl!
     var stationModel = YoubikeManager.sharedInstance().stationModel
 
@@ -34,7 +33,8 @@ class ViewController: UIViewController{
         let controller = TableViewController.controller()
         
         //        controller.delegate = self
-        
+        self.refreshButton.target = controller
+        self.refreshButton.action = #selector(TableViewController.refreshPage)
         self.addChildViewController(controller)
         self.didMoveToParentViewController(controller)
         return controller

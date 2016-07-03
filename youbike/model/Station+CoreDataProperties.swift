@@ -20,5 +20,6 @@ extension Station {
     @NSManaged var stationLatitude: NSNumber?
     @NSManaged var remainingBikes: NSNumber?
     @NSManaged var stationID: String?
+    @NSManaged var distanceFromSelf: NSNumber?
 
 }
